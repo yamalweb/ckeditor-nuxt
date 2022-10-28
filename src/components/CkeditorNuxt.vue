@@ -6,6 +6,7 @@
             :tagName="tagName"
             :disabled="disabled"
             @input="event => $emit('input', event)"
+            @ready="event => $emit('ready', event)"
     />
 </template>
 <script>
